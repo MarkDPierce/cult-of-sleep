@@ -24,11 +24,15 @@ This looks fun! I think I'll sign up to be a healer for this event.
 ![alt text](./static/img/event-select-character.png)
 
 Since there is a connection between Discord, Battle.net and Guildsofwow.com this chat box will be populated with your character details. Once you have finished selecting everything, you can click save.
+
 ![alt text](./static/img/event-selected-character.png)
 
 4) After clicking save, two things will have happened. First, the event will be updated with your attendance. 
+
 ![alt text](./static/img/event-attending.png)
+
 Second, the channel the event is posted in should have a new message with your characters attendance details. Be aware that after a while, this message will go away and if you would like to adjust your attendance or change characters you will have to follow the next process for updating character specific information for an event.
+
 ![alt text](./static/img/character-event-attendance.png)
 
 # Removing yourself from a Raid
