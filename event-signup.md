@@ -5,7 +5,7 @@ TODO: Write this section, its a pain, I need to deauth my integrations first bef
 
 ## Signing up for a new Event
 
-Depending on the event type, the event could be posted in #events or #-raid-signup. Just check which channels you have access too and which events you want to attend as this guide should cover any channels posted even.
+Depending on the event type, the event could be posted in #events or #-raid-signup. Just check which channels you have access too and which events you want to attend as this guide should cover any channels posted event.
 
 For the sake of this walk-through I'll be signing up for a raid on my main
 
@@ -31,11 +31,11 @@ Since there is a connection between Discord, Battle.net and Guildsofwow.com this
 
 ![alt text](./static/img/event-attending.png)
 
-Second, the channel the event is posted in should have a new message with your characters attendance details. Be aware that after a while, this message will go away and if you would like to adjust your attendance or change characters you will have to follow the next process for updating character specific information for an event.
+Second, the channel the event is posted in should have a new message with your character's attendance details. Be aware that after a while, this message will go away and if you would like to adjust your attendance or change characters you will have to follow the next process for updating character specific information for an event.
 
 ![alt text](./static/img/character-event-attendance.png)
 
-# Removing yourself from a Raid
+# Removing/Updating yourself in a Raid Event
 
 When you sign up for an event the last message you will receive is the character attendance message that lets you update the status or set notes. However, after a certain amount of time, this message gets purged from the events channel and you will have to go through the following to update attendance or change characters.
 
