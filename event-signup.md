@@ -1,7 +1,57 @@
 # Signing Up for a Discord Event
 
 ## Setup Guildsofwow.com Integrations
-TODO: Write this section, its a pain, I need to deauth my integrations first before doing this and "not right now" is my excuse.
+Without cracking open what web integrations are and how SSO connections function. I'll try and break down what this is, why its needed and hopefully shed some light on this whole aspect of things.
+
+Battlenet - Has all your wow character information, on some websites like wowhead and raider.io, you can integrate SSO. Basically meaning you can use your battlenet login details for these websites reducing account/password bloat.
+Discord - Messaging platform and common forum the guild uses to communicate and coordinate events
+Guilds of wow (GOW) - An HR style website that allows you to manage your guild, recruitment, members and calendar events to list a few features.
+
+What is this integration then? Well, in order for GOW to know who your characters are, and if those characters are in a guild. You give GOW limited access to character details for wow on your battlenet account. If you go to Guilds of wow you can see all your characters, their specs, and other information (similar to the armory).
+
+So, when an event is posted to an events channel, you go to sign up for it. How does Discord or the GOW event know that my character Maxxiss belongs to my discord account? Well you need to do the same style of integration between GOW and discord. In essence you are telling GOW who your discord user is. Since you integrated your battlenet as well. GOW knows which characters belong to which discord account. 
+
+Hopefully, with that nutshell breakdown of what is happening. You are a bit more confident in allowing these links happen. As well as a basic understanding at a technical level what moving parts are required to make this happen.
+
+### Add Discord to Guilds of Wow
+1) Log into guildsofwow.com
+2) Go to https://guildsofwow.com/settings/connections
+
+3) In "Connect your Accounts" click the Discord Icon
+
+![alt text](./static/img/gow-discord-connection.png)
+
+4) You should be redirected to a discord oauth2 page that shows you the "scope" of this integration can access. You can click "Authorize"
+
+![alt text](./static/img/gow-oauth-access-discord.png)
+
+Just as a bit more of an explanation. Guilds of Wow is only asking for access to see your "Username, avatar and profile banner" for this integration. To me, this is pretty safe in terms of "What can Guilds of WOW access on my discord". This means they don't see I have nitro, which servers im on, or my personal email or name. The Oauth2 scope is absolute, and this is a discord webpage telling YOU what GOW is asking for.
+
+5) You should now be connected
+
+![alt text](./static/img/gow-discord-connected.png)
+
+### Add Guilds of Wow to Battle.net
+TODO: As I was writing this I needed to remove my integrations. However, guilds of wow does not immediately update their interface when you remove your battlenet integration. So I cant update this until they remove every aspect of this integration from my GOW account.
+
+
+### Removing SSO integrations.
+What if you leave us and no longer need or want the integration? Well, good practice is to remove access to your account that is no longer needed.
+
+#### Remove Guilds of Wow from Battlenet
+1) Log into battle.net with your details
+2) Battlenet has made this process easy to do and get to. https://account.battle.net/connections
+3) Remove Authorized Application by clicking the "x Remove" link
+
+![alt text](./static/img/remove-auth-app-battlenet.png)
+
+#### Remove Discord from Guilds of Wow
+1) Log into guildsofwow.com
+2) GOW has made this process easy to do and find. https://guildsofwow.com/settings/connections
+3) Click the "Remove" link 
+
+![alt text](./static/img/gow-remove-discord-auth.png)
+
 
 ## Signing up for a new Event
 
