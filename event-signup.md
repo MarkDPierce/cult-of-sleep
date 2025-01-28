@@ -1,6 +1,6 @@
 # Signing Up for a Discord Event
 
-Index
+Table of Contents:
 
 * [Setup Guildsofwow.com Integrations](#Setup-Guildsofwow.com-Integrations)
     * [Guilds of Wow & Battlenet](#Guilds-of-Wow-&-Battlenet)
@@ -9,8 +9,8 @@ Index
         * [Remove Guilds of Wow from Battlenet](#Remove-Guilds-of-Wow-from-Battlenet)
         * [Remove Discord from Guilds of Wow](#Remove-Discord-from-Guilds-of-Wow)
 * [Signing up for a new Event](#Signing-up-for-a-new-Event)
-* [Removing/Updating yourself in a Raid Event](#Removing/Updating-yourself-in-a-Raid-Event)
-
+* [Removing or Updating yourself in a Raid Event](#Removing-or-Updating-yourself-in-a-Raid-Event)
+---
 
 ## Setup Guildsofwow.com Integrations
 Without cracking open what web integrations are and how SSO connections function. I'll try and break down what this is, why its needed and hopefully shed some light on this whole aspect of things.
@@ -25,6 +25,7 @@ So, when an event is posted to an events channel, you go to sign up for it. How 
 
 Hopefully, with that nutshell breakdown of what is happening. You are a bit more confident in allowing these links to happen. As well as a basic understanding at a technical level what moving parts are required to make this happen.
 
+---
 ### Guilds of Wow & Battlenet
 First and foremost. You might actually need a Guilds of Wow account. You're just in luck as well, because when you sign up for an account on Guilds of Wow you do so directly through your battlenet account.
 
@@ -41,6 +42,7 @@ First and foremost. You might actually need a Guilds of Wow account. You're just
 
 ![alt text](./static/img/gow-to-bnet-scope.png)
 
+---
 ### Add Discord to Guilds of Wow
 1) Log into guildsofwow.com
 2) Go to https://guildsofwow.com/settings/connections
@@ -61,9 +63,11 @@ Just as a bit more of an explanation. Guilds of Wow is only asking for access to
 
 6) Guilds of Wow will need to request the information from Battle.net at some point. Usually just navigating any page in GOW that contains character details will kick this off for you. 
 
+---
 ### Removing SSO integrations
 What if you leave us and no longer need or want the integration? Well, good practice is to remove access to your account that is no longer needed.
 
+---
 #### Remove Guilds of Wow from Battlenet
 1) Log into battle.net with your details
 2) Battlenet has made this process easy to do and get to. https://account.battle.net/connections
@@ -71,6 +75,7 @@ What if you leave us and no longer need or want the integration? Well, good prac
 
 ![alt text](./static/img/remove-auth-app-battlenet.png)
 
+---
 #### Remove Discord from Guilds of Wow
 1) Log into guildsofwow.com
 2) GOW has made this process easy to do and find. https://guildsofwow.com/settings/connections
@@ -78,7 +83,7 @@ What if you leave us and no longer need or want the integration? Well, good prac
 
 ![alt text](./static/img/gow-remove-discord-auth.png)
 
-
+---
 ## Signing up for a new Event
 
 Depending on the event type, the event could be posted in #events or #-raid-signup. Just check which channels you have access too and which events you want to attend as this guide should cover any channels posted event.
@@ -111,7 +116,8 @@ Second, the channel the event is posted in should have a new message with your c
 
 ![alt text](./static/img/character-event-attendance.png)
 
-# Removing/Updating yourself in a Raid Event
+---
+# Removing or Updating yourself in a Raid Event
 
 When you sign up for an event the last message you will receive is the character attendance message that lets you update the status or set notes. However, after a certain amount of time, this message gets purged from the events channel and you will have to go through the following to update attendance or change characters.
 
