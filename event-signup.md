@@ -3,9 +3,9 @@
 ## Setup Guildsofwow.com Integrations
 Without cracking open what web integrations are and how SSO connections function. I'll try and break down what this is, why its needed and hopefully shed some light on this whole aspect of things.
 
-Battlenet - Has all your wow character information, on some websites like wowhead and raider.io, you can integrate SSO. Basically meaning you can use your battlenet login details for these websites reducing account/password bloat.
-Discord - Messaging platform and common forum the guild uses to communicate and coordinate events
-Guilds of wow (GOW) - An HR style website that allows you to manage your guild, recruitment, members and calendar events to list a few features.
+* Battlenet - Has all your wow character information, on some websites like wowhead and raider.io, you can integrate SSO. Basically meaning you can use your battlenet login details for these websites reducing account/password bloat.
+* Discord - Messaging platform and common forum the guild uses to communicate and coordinate events
+* Guilds of wow (GOW) - An HR style website that allows you to manage your guild, recruitment, members and calendar events to list a few features.
 
 What is this integration then? Well, in order for GOW to know who your characters are, and if those characters are in a guild. You give GOW limited access to character details for wow on your battlenet account. If you go to Guilds of wow you can see all your characters, their specs, and other information (similar to the armory).
 
