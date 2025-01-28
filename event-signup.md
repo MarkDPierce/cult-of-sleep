@@ -1,5 +1,17 @@
 # Signing Up for a Discord Event
 
+Index
+
+* [Setup Guildsofwow.com Integrations](#Setup-Guildsofwow.com-Integrations)
+    * [Guilds of Wow & Battlenet](#Guilds-of-Wow-&-Battlenet)
+    * [Add Discord to Guilds of Wow](#Add-Discord-to-Guilds-of-Wow)
+    * [Removing SSO integrations](#Removing-SSO-integrations)
+        * [Remove Guilds of Wow from Battlenet](#Remove-Guilds-of-Wow-from-Battlenet)
+        * [Remove Discord from Guilds of Wow](#Remove-Discord-from-Guilds-of-Wow)
+* [Signing up for a new Event](#Signing-up-for-a-new-Event)
+* [Removing/Updating yourself in a Raid Event](#Removing/Updating-yourself-in-a-Raid-Event)
+
+
 ## Setup Guildsofwow.com Integrations
 Without cracking open what web integrations are and how SSO connections function. I'll try and break down what this is, why its needed and hopefully shed some light on this whole aspect of things.
 
@@ -49,7 +61,7 @@ Just as a bit more of an explanation. Guilds of Wow is only asking for access to
 
 6) Guilds of Wow will need to request the information from Battle.net at some point. Usually just navigating any page in GOW that contains character details will kick this off for you. 
 
-### Removing SSO integrations.
+### Removing SSO integrations
 What if you leave us and no longer need or want the integration? Well, good practice is to remove access to your account that is no longer needed.
 
 #### Remove Guilds of Wow from Battlenet
